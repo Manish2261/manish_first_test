@@ -1,10 +1,10 @@
 int main() {
 
-unsigned int i=1;   //1st Case: It gives output as Little Endian
+unsigned int i=125;   //1st Case: It gives output as Little Endian
 
 int *c = (char *)&i;
 
-if(*c==1)
+if(*c==5)
 
 {
 
