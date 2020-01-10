@@ -4,7 +4,7 @@ unsigned int i=125;   //1st Case: It gives output as Little Endian
 
 int *c = (char *)&i;
 
-if(*c==5)
+if(*c==1)
 
 {
 
