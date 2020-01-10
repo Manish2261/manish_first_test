@@ -1,0 +1,29 @@
+int main() {
+
+unsigned int i=1;   //1st Case: It gives output as Little Endian
+
+int *c = (char *)&i;
+
+if(*c==1)
+
+{
+
+  printf("Little Endian");
+}
+
+else
+
+{
+
+  printf("Big Endian");
+}
+  return 0;
+}
+
+
+
+
+
+int main() {
+
+unsigned int i=125;   */Case 2nd: It gives output as Big Endian. Means how it is possible that a single machine could follow Big as well as Small Endian Terminology. */
